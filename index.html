@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BeeGraphix Brand Guide</title>
+<meta name="description" content="Official BeeGraphix logos, colors, fonts and usage rules. Download everything you need to put our name on something.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BeeGraphix">
+<meta property="og:title" content="BeeGraphix Brand Guide">
+<meta property="og:description" content="Official BeeGraphix logos, colors and fonts. Download everything you need to put our name on something.">
+<meta property="og:url" content="https://brand.shopbgx.com/">
+<meta property="og:image" content="https://brand.shopbgx.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://brand.shopbgx.com/">
+<link rel="icon" type="image/svg+xml" href="logos/beegraphix-hex-gold-on-light.svg">
+<style>
+@font-face{font-family:"Cooper Hewitt";src:url(fonts/cooper-hewitt-latin-300-normal.woff2) format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Cooper Hewitt";src:url(fonts/cooper-hewitt-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Cooper Hewitt";src:url(fonts/cooper-hewitt-latin-600-normal.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Cooper Hewitt";src:url(fonts/cooper-hewitt-latin-700-normal.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}
+:root{
+  --bee-gold:#F9B023;--honey:#FCC94D;--hive:#231F20;--ink:#1C1C1C;--ink-muted:#5B5657;
+  --surface:#FFFFFF;--surface-alt:#F5F5F5;--line:#E2DFDC;
+  --font:"Cooper Hewitt","Helvetica Neue",Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--surface);color:var(--ink);font:400 16px/24px var(--font);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+:focus-visible{outline:2px solid var(--hive);outline-offset:2px}
+.dark :focus-visible{outline-color:var(--bee-gold)}
+
+/* header */
+.bar{background:var(--bee-gold);color:var(--hive);font:600 13px/18px var(--font);text-align:center;padding:8px 16px}
+header{background:var(--hive);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
+header img{height:36px;width:auto}
+nav{display:flex;gap:24px;align-items:center}
+nav a{color:#fff;text-decoration:none;font:700 13px/16px var(--font);letter-spacing:.06em;text-transform:uppercase;opacity:.85}
+nav a:hover{opacity:1}
+@media (max-width:860px){nav .nl{display:none}}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;font:700 14px/16px var(--font);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:12px 24px;border-radius:999px;border:2px solid transparent;cursor:pointer;white-space:nowrap}
+.btn-gold{background:var(--bee-gold);color:var(--hive)}
+.btn-gold:hover{background:var(--honey)}
+.btn-ghost{color:#fff;border-color:#fff;background:transparent}
+.btn-ghost:hover{background:rgba(255,255,255,.08)}
+.btn-sm{padding:8px 16px;font-size:12px}
+
+/* hero */
+.hero{background:var(--hive);color:#fff;padding:96px 0 88px;position:relative;overflow:hidden}
+.hero svg.hex{position:absolute;right:-40px;top:40px;width:420px;height:auto;opacity:.9}
+@media (max-width:860px){.hero svg.hex{width:240px;right:-60px;top:24px;opacity:.35}}
+.eyebrow{font:600 13px/16px var(--font);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-muted);margin:0 0 16px}
+.dark .eyebrow{color:var(--bee-gold)}
+.hero h1{font:700 64px/66px var(--font);letter-spacing:-.01em;margin:0 0 20px;max-width:720px;position:relative}
+.hero h1 span{color:var(--bee-gold)}
+.hero p.lead{font:300 20px/30px var(--font);color:rgba(255,255,255,.8);max-width:560px;margin:0 0 32px;position:relative}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap;position:relative}
+@media (max-width:640px){.hero{padding:64px 0}.hero h1{font-size:42px;line-height:46px}}
+
+/* sections */
+section{padding:88px 0;border-bottom:1px solid var(--line)}
+section.alt{background:var(--surface-alt)}
+section.dark{background:var(--hive);color:#fff;border-bottom:0}
+h2{font:700 36px/40px var(--font);letter-spacing:.02em;text-transform:uppercase;margin:0 0 12px}
+h2 .acc{box-shadow:inset 0 -.26em 0 var(--bee-gold)}
+.dark h2 .acc{box-shadow:none;color:var(--bee-gold)}
+.intro{font:300 20px/30px var(--font);color:var(--ink-muted);max-width:680px;margin:0 0 40px}
+.dark .intro{color:rgba(255,255,255,.75)}
+h3{font:600 24px/30px var(--font);margin:48px 0 8px}
+h3:first-of-type{margin-top:0}
+.sub{color:var(--ink-muted);margin:0 0 20px;max-width:680px}
+@media (max-width:640px){section{padding:56px 0}h2{font-size:28px;line-height:32px}}
+
+/* logo tiles */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.tile{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#fff}
+.tile .art{height:180px;display:flex;align-items:center;justify-content:center;padding:28px}
+.tile .art img{max-height:100%;max-width:100%;object-fit:contain}
+.tile .art.on-dark{background:var(--hive)}
+.tile .art.on-light{background:#fff;border-bottom:1px solid var(--line)}
+.tile .meta{padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:8px;background:#fff}
+.tile .name{font:600 14px/18px var(--font)}
+.tile .dl{display:flex;gap:6px}
+.chip{font:700 11px/14px var(--font);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:6px 10px;border-radius:999px;background:var(--surface-alt);border:1px solid var(--line);color:var(--ink)}
+.chip:hover{border-color:var(--hive)}
+.grid.small .art{height:140px}
+
+/* colors */
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+.sw{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#fff}
+.sw .fill{height:140px;display:flex;align-items:flex-end;padding:16px;font:700 18px/22px var(--font)}
+.sw dl{margin:0;padding:14px 16px;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13px;line-height:18px}
+.sw dt{color:var(--ink-muted)}
+.sw dd{margin:0;text-align:right}
+.sw button{all:unset;cursor:pointer;border-bottom:1px dotted var(--ink-muted)}
+.sw button:focus-visible{outline:2px solid var(--hive);outline-offset:2px}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:32px}
+.rule{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px}
+.rule b{display:block;font:600 16px/22px var(--font);margin-bottom:4px}
+.rule p{margin:0;color:var(--ink-muted);font-size:14px;line-height:20px}
+.demo{display:flex;align-items:center;justify-content:center;height:56px;border-radius:8px;margin-bottom:12px;font:700 14px/16px var(--font);letter-spacing:.06em;text-transform:uppercase}
+
+/* type */
+.spec{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:start}
+@media (max-width:860px){.spec{grid-template-columns:1fr}}
+.big{font:700 120px/1 var(--font);letter-spacing:-.02em;margin:0 0 16px}
+.weights{display:flex;flex-direction:column;gap:6px;font-size:28px;line-height:36px}
+.scale{border-top:1px solid var(--line)}
+.scale div{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.scale small{color:var(--ink-muted);font-size:12px;white-space:nowrap}
+.note{margin-top:24px;padding:20px;background:var(--surface-alt);border-radius:12px;font-size:14px;line-height:20px}
+@media (max-width:640px){.big{font-size:72px}}
+
+/* do / don't */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+.list{list-style:none;padding:0;margin:0}
+.list li{padding:12px 0 12px 32px;border-bottom:1px solid var(--line);position:relative}
+.list li::before{position:absolute;left:0;top:12px;font-weight:700}
+.do li::before{content:"✓";color:var(--ink)}
+.dont li::before{content:"✕";color:var(--ink)}
+.dark .list li{border-color:rgba(255,255,255,.14)}
+.cleargfx{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;align-items:center;justify-content:center}
+.cleargfx .box{position:relative;padding:28px;outline:2px dashed var(--bee-gold);outline-offset:0}
+.cleargfx .box img{height:56px;width:auto}
+.cleargfx .lbl{position:absolute;top:4px;left:8px;font:600 11px/14px var(--font);letter-spacing:.1em;color:var(--ink-muted);text-transform:uppercase}
+
+/* voice */
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:12px 8px;border-bottom:1px solid rgba(255,255,255,.14);vertical-align:top}
+th{font:600 12px/16px var(--font);letter-spacing:.12em;text-transform:uppercase;color:var(--bee-gold)}
+td code{font:700 13px/16px var(--font);letter-spacing:.06em;background:rgba(255,255,255,.08);padding:4px 10px;border-radius:999px}
+
+footer{background:var(--hive);color:rgba(255,255,255,.7);padding:40px 0;font-size:14px;border-top:1px solid rgba(255,255,255,.1)}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+footer img{height:28px;width:auto}
+footer a{color:#fff}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(80px);background:var(--hive);color:#fff;padding:10px 18px;border-radius:999px;font:600 14px/18px var(--font);transition:transform .2s ease;z-index:20}
+.toast{visibility:hidden}.toast.show{visibility:visible;transform:translateX(-50%) translateY(0)}
+.spec td:first-child{white-space:nowrap}
+@media (max-width:760px){.spec td:has(> .v:empty){display:none}}
+.dd{position:relative}
+.dd>button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:#fff;font:700 13px/16px var(--font);letter-spacing:.06em;text-transform:uppercase;opacity:.85;padding:8px 0}
+.dd>button:hover,.dd>button[aria-expanded="true"]{opacity:1}
+.dd>button:focus-visible{outline:2px solid var(--bee-gold);outline-offset:4px}
+.dd>button svg{width:10px;height:10px;transition:transform .15s ease}
+.dd>button[aria-expanded="true"] svg{transform:rotate(180deg)}
+.dd-menu{position:absolute;right:-12px;top:calc(100% + 14px);min-width:260px;background:var(--hive);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:8px;box-shadow:0 12px 32px rgba(0,0,0,.35);z-index:30}
+.dd-menu[hidden]{display:none}
+.dd-menu a{display:block;padding:10px 12px;border-radius:8px;text-decoration:none;color:#fff;opacity:1;text-transform:none;letter-spacing:0}
+.dd-menu a b{display:block;font:700 13px/16px var(--font);letter-spacing:.06em;text-transform:uppercase}
+.dd-menu a span{display:block;font:400 13px/18px var(--font);color:rgba(255,255,255,.65);margin-top:2px}
+.dd-menu a:hover,.dd-menu a:focus-visible{background:rgba(255,255,255,.08);outline:none}
+.dd-menu a[aria-current] b{color:var(--bee-gold)}
+.dd-menu hr{border:0;border-top:1px solid rgba(255,255,255,.12);margin:6px 4px}
+@media (max-width:640px){.dd-menu{position:fixed;left:16px;right:16px;top:118px;min-width:0}}
+@media print{.dd{display:none}}
+.spec td:first-child{white-space:nowrap}
+@media (max-width:760px){.spec td:has(> .v:empty){display:none}}
+</style>
+</head>
+<body>
+
+<div class="bar">Official logos, colors and fonts. Free to download for approved BeeGraphix work.</div>
+
+<header class="dark">
+  <div class="wrap">
+    <a href="#top" aria-label="BeeGraphix brand guide home"><img src="logos/beegraphix-horizontal-gold-on-dark.svg" alt="BeeGraphix"></a>
+    <nav aria-label="Sections">
+      <a class="nl" href="#logos">Logos</a>
+      <a class="nl" href="#color">Color</a>
+      <a class="nl" href="#type">Type</a>
+      <a class="nl" href="#rules">Rules</a>
+      <a class="nl" href="#voice">Voice</a>
+      <div class="dd"><button type="button" id="dd-btn" aria-expanded="false" aria-controls="dd-menu">Specs <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button><div class="dd-menu" id="dd-menu" hidden><a href="locations/"><b>All Locations</b><span>One code per spot, every method</span></a><hr><a href="embroidery/"><b>Embroidery</b><span>Melco, Madeira Polyneon</span></a><a href="screen-print/"><b>Screen Print</b><span>Plastisol, 48 piece minimum</span></a><a href="bgx-print/"><b>BGX Print</b><span>DTF printed at BeeGraphix</span></a><a href="dtf/"><b>DTF</b><span>DTF through our contractor network</span></a><a href="dtg/"><b>DTG</b><span>Direct to garment, 60%+ cotton</span></a><a href="glitter-flake/"><b>Glitter Flake</b><span>Cut glitter vinyl, up to 2 colors</span></a><a href="rhinestones/"><b>Rhinestones</b><span>Stones, combos and spangles</span></a><a href="leather-patches/"><b>Leather Patches</b><span>Engraved or UV DTF leatherette</span></a><a href="custom-patches/"><b>Custom Patches</b><span>Embroidered, woven, PVC and more</span></a><a href="hard-goods/"><b>Hard Goods</b><span>Laser engraving and UV DTF decals</span></a></div></div>
+      
+      
+      
+      
+      
+      
+      <a class="btn btn-gold btn-sm" href="beegraphix-brand-kit.zip" download>Download Kit</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero dark">
+  <svg class="hex" viewBox="0 0 420 300" aria-hidden="true" fill="none" stroke-width="10" stroke-linejoin="round">
+    <polygon stroke="#F9B023" points="250,110 200,196.6 100,196.6 50,110 100,23.4 200,23.4"/>
+    <polygon stroke="#FFFFFF" points="330,170 280,256.6 180,256.6 130,170 180,83.4 280,83.4"/>
+  </svg>
+  <div class="wrap">
+    <p class="eyebrow">Brand Guide</p>
+    <h1>Put Our Name on Something. <span>Do It Right.</span></h1>
+    <p class="lead">Every BeeGraphix logo, color and font in one place, plus the few rules that keep it looking like us. Grab what you need.</p>
+    <div class="ctas">
+      <a class="btn btn-gold" href="beegraphix-brand-kit.zip" download>Download the Full Kit</a>
+      <a class="btn btn-ghost" href="#logos">Browse Logos</a>
+    </div>
+  </div>
+</div>
+
+<section id="logos">
+  <div class="wrap">
+    <p class="eyebrow">01 · Logos</p>
+    <h2>The <span class="acc">Logo</span></h2>
+    <p class="intro">The hex mark plus the wordmark. "Bee" is always gold. Every version comes as an SVG for web and print, and a transparent PNG for Office, Canva and social. Never retype the wordmark.</p>
+
+    <h3>Primary (Stacked)</h3>
+    <p class="sub">The default. Covers, packaging, square avatars, signage, apparel.</p>
+    <div class="grid" data-group="stacked"></div>
+
+    <h3>Horizontal</h3>
+    <p class="sub">Headers, email banners, letterhead, anywhere height is tight.</p>
+    <div class="grid" data-group="horizontal"></div>
+
+    <h3>Hex Mark</h3>
+    <p class="sub">Favicons, app icons, small avatars. Only where the full logo appears nearby.</p>
+    <div class="grid small" data-group="hex"></div>
+
+    <h3>BGx Prints Roundel</h3>
+    <p class="sub">A seal for print and production pieces: packaging, transfer sheets, hang tags. Never locked up with the BeeGraphix logo.</p>
+    <div class="grid small" data-group="prints"></div>
+  </div>
+</section>
+
+<section id="color" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">02 · Color</p>
+    <h2>Gold and <span class="acc">Black</span></h2>
+    <p class="intro">Gold is the spark. Hive black does the heavy lifting. White gives it room. Click any value to copy it.</p>
+    <div class="swatches" id="swatches"></div>
+    <div class="rules">
+      <div class="rule"><div class="demo" style="background:#F9B023;color:#231F20">Black on Gold</div><b>Text on gold is always black.</b><p>Hive #231F20 on gold passes contrast at 8.7:1. White on gold does not.</p></div>
+      <div class="rule"><div class="demo" style="background:#231F20;color:#F9B023">Gold on Black</div><b>Gold text only on black.</b><p>Gold type on white is too faint to read (1.9:1). On light pages, use gold as a bar, shape or underline instead.</p></div>
+      <div class="rule"><div class="demo" style="background:#fff;color:#1C1C1C;border:1px solid #E2DFDC"><span style="box-shadow:inset 0 -.3em 0 #F9B023">Gold as a Highlight</span></div><b>On white, gold underlines.</b><p>Keep the words black and let gold sit behind them.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="type">
+  <div class="wrap">
+    <p class="eyebrow">03 · Typography</p>
+    <h2>Cooper <span class="acc">Hewitt</span></h2>
+    <p class="intro">One family for everything that isn't the logo: web, print, decks, email and graphics. It's free under the SIL Open Font License.</p>
+    <div class="spec">
+      <div>
+        <p class="big">Aa Bb</p>
+        <div class="weights">
+          <span style="font-weight:300">Light 300. Custom gear that gets noticed.</span>
+          <span style="font-weight:400">Book 400. Custom gear that gets noticed.</span>
+          <span style="font-weight:600">Semibold 600. Custom gear that gets noticed.</span>
+          <span style="font-weight:700">Bold 700. Custom gear that gets noticed.</span>
+        </div>
+        <p style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn btn-gold" href="cooper-hewitt-fonts.zip" download>Download Cooper Hewitt</a>
+        </p>
+      </div>
+      <div>
+        <div class="scale">
+          <div><span style="font:700 36px/40px var(--font)">Display</span><small>72 / 48px Bold</small></div>
+          <div><span style="font:700 24px/30px var(--font);letter-spacing:.02em">SECTION TITLE</span><small>36px Bold, caps</small></div>
+          <div><span style="font:700 22px/28px var(--font)">Heading</span><small>32 / 24 / 18px</small></div>
+          <div><span style="font:300 20px/28px var(--font)">Lead paragraph</span><small>20px Light</small></div>
+          <div><span>Body copy for paragraphs.</span><small>16px Book</small></div>
+          <div><span style="font:700 13px/16px var(--font);letter-spacing:.06em">BUTTON LABEL</span><small>14px Bold, caps</small></div>
+        </div>
+        <div class="note"><b>Libel Suit</b> is the logo's typeface and lives only inside the logo artwork. Don't set headlines or copy in it. Where Cooper Hewitt isn't installed (Word, Outlook), fall back to Helvetica Neue, then Helvetica.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="rules" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">04 · Logo Rules</p>
+    <h2>Give It <span class="acc">Room</span></h2>
+    <p class="intro">Clear space on every side equals the height of the "B" in the wordmark. Nothing goes inside that space.</p>
+    <div class="two">
+      <div>
+        <div class="cleargfx"><div class="box"><span class="lbl">Clear space</span><img src="logos/beegraphix-horizontal-gold-on-light.svg" alt="BeeGraphix horizontal logo with clear space marked"></div></div>
+        <h3 style="margin-top:32px">Minimum Sizes</h3>
+        <ul class="list do">
+          <li>Horizontal logo: 120px on screen, 1.25 in. in print</li>
+          <li>Stacked logo: 72px on screen, 0.75 in. in print</li>
+          <li>Hex mark: 16px on screen, 0.25 in. in print</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="margin-top:0">Don't</h3>
+        <ul class="list dont">
+          <li>Stretch, skew, rotate or outline the logo</li>
+          <li>Recolor it outside gold, black and white</li>
+          <li>Swap the colors of "Bee" and "Graphix," or set both in gold</li>
+          <li>Put the gold two-tone logo on a gold background (use the black version)</li>
+          <li>Rearrange the hex mark and wordmark into a new lockup</li>
+          <li>Add shadows, glows, bevels or gradients</li>
+          <li>Place it on a busy photo without a solid black band behind it</li>
+          <li>Retype "BeeGraphix" in any font</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="voice" class="dark">
+  <div class="wrap">
+    <p class="eyebrow">05 · Name &amp; Voice</p>
+    <h2>How We <span class="acc">Sound</span></h2>
+    <p class="intro">Like the coach who returns your call the same day. Direct, specific, a little fired up.</p>
+    <div class="two">
+      <ul class="list do">
+        <li>Write it <b>BeeGraphix</b>: one word, capital B and G</li>
+        <li>Short sentences, mixed with a longer one that carries the detail</li>
+        <li>Real numbers over slogans: "85 participants raised $25,016"</li>
+        <li>Talk to one person: your team, your store, your gear</li>
+      </ul>
+      <ul class="list dont">
+        <li>"Bee Graphix," "Beegraphix" or "BG"</li>
+        <li>Corporate filler: solutions, leverage, best-in-class</li>
+        <li>Em dashes. Use a period, comma or colon instead</li>
+        <li>Generic claims you can't back with a number</li>
+      </ul>
+    </div>
+    <h3 style="margin-top:56px">Calls to Action</h3>
+    <table>
+      <thead><tr><th>When you want them to</th><th>Say</th></tr></thead>
+      <tbody>
+        <tr><td>Start an order</td><td><code>GET A FREE QUOTE</code></td></tr>
+        <tr><td>Raise money</td><td><code>START A FUNDRAISER →</code></td></tr>
+        <tr><td>Talk to a person</td><td><code>SCHEDULE A CALL</code></td></tr>
+        <tr><td>Reach us generally</td><td><code>CONTACT US</code></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section id="specs" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">06 · Decoration Specs</p>
+    <h2>Putting It on <span class="acc">Gear</span></h2>
+    <p class="intro">Production specs for each decoration method: locations, max sizes, placement, artwork, thread and ink.</p>
+    <div class="rules">
+      <a class="rule" href="locations/" style="text-decoration:none;display:block;border-top:6px solid var(--bee-gold)"><b>All Locations &rarr;</b><p>One master list: every decoration location with one code and placement, and max sizes by method.</p></a>
+      <a class="rule" href="embroidery/" style="text-decoration:none;display:block"><b>Embroidery &rarr;</b><p>17 locations, Madeira Polyneon thread colors, personalization and order policies.</p></a>
+      <a class="rule" href="screen-print/" style="text-decoration:none;display:block"><b>Screen Print &rarr;</b><p>32 locations, plastisol ink colors by PMS, artwork rules and order policies.</p></a>
+      <a class="rule" href="bgx-print/" style="text-decoration:none;display:block"><b>BGX Print &rarr;</b><p>Full color DTF printed at BeeGraphix. No minimum, youth to toddler sizes, hats, bags and personalization.</p></a>
+      <a class="rule" href="dtf/" style="text-decoration:none;display:block"><b>DTF &rarr;</b><p>The same DTF specs for our contractor network.</p></a>
+      <a class="rule" href="dtg/" style="text-decoration:none;display:block"><b>DTG &rarr;</b><p>Direct to garment on 60%+ cotton. Full color, no minimum, names and numbers in the same pass.</p></a>
+      <a class="rule" href="glitter-flake/" style="text-decoration:none;display:block"><b>Glitter Flake &rarr;</b><p>Cut glitter vinyl pressed in house. Up to 2 colors, 12 piece minimum.</p></a>
+      <a class="rule" href="rhinestones/" style="text-decoration:none;display:block"><b>Rhinestones &rarr;</b><p>Custom stone transfers: single color, multi-color, combos and spangles.</p></a>
+      <a class="rule" href="leather-patches/" style="text-decoration:none;display:block"><b>Leather Patches &rarr;</b><p>Leatherette patches, laser engraved or UV DTF printed. 9 shapes, 30 colors.</p></a>
+      <a class="rule" href="custom-patches/" style="text-decoration:none;display:block"><b>Custom Patches &rarr;</b><p>12 patch styles with a simple size menu by location.</p></a>
+      <a class="rule" href="hard-goods/" style="text-decoration:none;display:block"><b>Hard Goods &rarr;</b><p>Laser engraving and UV DTF decals on tumblers, power banks and small hard goods.</p></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="logos/beegraphix-horizontal-gold-on-dark.svg" alt="BeeGraphix">
+    <span><a href="locations/">All Locations</a> · <a href="embroidery/">Embroidery</a> · <a href="screen-print/">Screen Print</a> · <a href="bgx-print/">BGX Print</a> · <a href="dtf/">DTF</a> · <a href="dtg/">DTG</a> · <a href="glitter-flake/">Glitter Flake</a> · <a href="rhinestones/">Rhinestones</a> · <a href="leather-patches/">Leather Patches</a> · <a href="custom-patches/">Custom Patches</a> · <a href="hard-goods/">Hard Goods</a> · Questions about using the brand? <a href="https://www.beegraphix.com">Contact BeeGraphix</a></span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+var LOGOS={
+  stacked:[
+    ["beegraphix-stacked-gold-on-dark","Gold · for dark"],["beegraphix-stacked-white-on-dark","White · for dark"],
+    ["beegraphix-stacked-gold-on-light","Gold · for light"],["beegraphix-stacked-black-on-light","Black · for light"],
+    ["beegraphix-stacked-gold-dotcom-on-dark",".com gold · for dark"],["beegraphix-stacked-white-dotcom-on-dark",".com white · for dark"],
+    ["beegraphix-stacked-gold-dotcom-on-light",".com gold · for light"],["beegraphix-stacked-black-dotcom-on-light",".com black · for light"]],
+  horizontal:[
+    ["beegraphix-horizontal-gold-on-dark","Gold · for dark"],["beegraphix-horizontal-white-on-dark","White · for dark"],
+    ["beegraphix-horizontal-gold-on-light","Gold · for light"],["beegraphix-horizontal-black-on-light","Black · for light"],
+    ["beegraphix-horizontal-gold-dotcom-on-dark",".com gold · for dark"],["beegraphix-horizontal-white-dotcom-on-dark",".com white · for dark"],
+    ["beegraphix-horizontal-gold-dotcom-on-light",".com gold · for light"],["beegraphix-horizontal-black-dotcom-on-light",".com black · for light"]],
+  hex:[
+    ["beegraphix-hex-gold-on-dark","Gold · for dark"],["beegraphix-hex-white","White"],
+    ["beegraphix-hex-gold-on-light","Gold · for light"],["beegraphix-hex-black","Black"]],
+  prints:[
+    ["bgx-prints-white-dark","White ring · dark"],["bgx-prints-gold-dark","Gold ring · dark"],["bgx-prints-color-dark","Color ring · dark"],
+    ["bgx-prints-black-light","Black ring · light"],["bgx-prints-gold-light","Gold ring · light"],["bgx-prints-color-light","Color ring · light"]]
+};
+function dark(f){return /on-dark|-dark$|hex-white$/.test(f)}
+document.querySelectorAll("[data-group]").forEach(function(g){
+  LOGOS[g.dataset.group].forEach(function(l){
+    var f=l[0],t=document.createElement("div");t.className="tile";
+    t.innerHTML='<div class="art '+(dark(f)?"on-dark":"on-light")+'"><img loading="lazy" src="logos/'+f+'.svg" alt="BeeGraphix '+l[1]+'"></div>'+
+      '<div class="meta"><span class="name">'+l[1]+'</span><span class="dl">'+
+      '<a class="chip" href="logos/'+f+'.svg" download>SVG</a><a class="chip" href="logos/'+f+'.png" download>PNG</a></span></div>';
+    g.appendChild(t);
+  });
+});
+var COLORS=[
+  {n:"Bee Gold",hex:"#F9B023",rgb:"249 176 35",cmyk:"0 31 89 0",pms:"130 C",fg:"#231F20"},
+  {n:"Honey",hex:"#FCC94D",rgb:"252 201 77",cmyk:"",pms:"",fg:"#231F20"},
+  {n:"Hive Black",hex:"#231F20",rgb:"35 31 32",cmyk:"75 68 67 90",pms:"",fg:"#FFFFFF"},
+  {n:"Solid Black",hex:"#000000",rgb:"0 0 0",cmyk:"0 0 0 100",pms:"Black C",fg:"#FFFFFF"},
+  {n:"White",hex:"#FFFFFF",rgb:"255 255 255",cmyk:"0 0 0 0",pms:"",fg:"#231F20"}
+];
+var sw=document.getElementById("swatches");
+COLORS.forEach(function(c){
+  var rows=[["HEX",c.hex],["RGB",c.rgb],["CMYK",c.cmyk],["Pantone",c.pms]].filter(function(r){return r[1]});
+  var d=document.createElement("div");d.className="sw";
+  d.innerHTML='<div class="fill" style="background:'+c.hex+';color:'+c.fg+(c.hex==="#FFFFFF"?';border-bottom:1px solid #E2DFDC':'')+'">'+c.n+'</div><dl>'+
+    rows.map(function(r){return '<dt>'+r[0]+'</dt><dd><button type="button" data-copy="'+r[1]+'">'+r[1]+'</button></dd>'}).join("")+'</dl>';
+  sw.appendChild(d);
+});
+var toast=document.getElementById("toast"),tt;
+document.addEventListener("click",function(e){
+  var b=e.target.closest("[data-copy]");if(!b)return;
+  var v=b.dataset.copy;
+  function done(){toast.textContent="Copied "+v;toast.classList.add("show");clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove("show")},1600)}
+  if(navigator.clipboard){navigator.clipboard.writeText(v).then(done,done)}else{done()}
+});
+</script>
+<script>
+(function(){var b=document.getElementById('dd-btn'),m=document.getElementById('dd-menu');if(!b)return;
+function set(o){b.setAttribute('aria-expanded',o?'true':'false');m.hidden=!o;if(o&&window.innerWidth<=640){m.style.top=(b.getBoundingClientRect().bottom+14)+'px'}else{m.style.top=''}}
+b.addEventListener('click',function(e){e.stopPropagation();set(m.hidden)});
+document.addEventListener('click',function(e){if(!m.hidden&&!m.contains(e.target))set(false)});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!m.hidden){set(false);b.focus()}});})();
+</script>
+</body>
+</html>

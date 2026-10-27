@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BeeGraphix Embroidery Specs</title>
+<meta name="description" content="BeeGraphix embroidery decoration specs: locations and max sizes, placement, artwork rules, Madeira Polyneon thread colors, personalization and order policies.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BeeGraphix">
+<meta property="og:title" content="BeeGraphix Embroidery Specs">
+<meta property="og:description" content="Locations, max sizes, placement, artwork rules, thread colors and personalization for BeeGraphix embroidery.">
+<meta property="og:url" content="https://brand.shopbgx.com/embroidery/">
+<meta property="og:image" content="https://brand.shopbgx.com/og-embroidery.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://brand.shopbgx.com/embroidery/">
+<link rel="icon" type="image/svg+xml" href="../logos/beegraphix-hex-gold-on-light.svg">
+<style>
+@font-face{font-family:"Cooper Hewitt";src:url(../fonts/cooper-hewitt-latin-300-normal.woff2) format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Cooper Hewitt";src:url(../fonts/cooper-hewitt-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Cooper Hewitt";src:url(../fonts/cooper-hewitt-latin-600-normal.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Cooper Hewitt";src:url(../fonts/cooper-hewitt-latin-700-normal.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}
+:root{
+  --bee-gold:#F9B023;--honey:#FCC94D;--hive:#231F20;--ink:#1C1C1C;--ink-muted:#5B5657;
+  --surface:#FFFFFF;--surface-alt:#F5F5F5;--line:#E2DFDC;
+  --font:"Cooper Hewitt","Helvetica Neue",Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{margin:0;background:var(--surface);color:var(--ink);font:400 16px/24px var(--font);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+@media (max-width:640px){.wrap{padding:0 16px}}
+:focus-visible{outline:2px solid var(--hive);outline-offset:2px}
+.dark :focus-visible{outline-color:var(--bee-gold)}
+
+.bar{background:var(--bee-gold);color:var(--hive);font:600 13px/18px var(--font);text-align:center;padding:8px 16px}
+header{background:var(--hive);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
+header img{height:36px;width:auto;display:block}
+nav{display:flex;gap:22px;align-items:center}
+nav a{color:#fff;text-decoration:none;font:700 13px/16px var(--font);letter-spacing:.06em;text-transform:uppercase;opacity:.85}
+nav a:hover{opacity:1}
+@media (max-width:1060px){nav .nl{display:none}}
+
+.btn{display:inline-flex;align-items:center;gap:8px;font:700 14px/16px var(--font);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:12px 24px;border-radius:999px;border:2px solid transparent;cursor:pointer;white-space:nowrap;background:none}
+.btn-gold{background:var(--bee-gold);color:var(--hive)}
+.btn-gold:hover{background:var(--honey)}
+.btn-ghost{color:#fff;border-color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.08)}
+.btn-sm{padding:8px 16px;font-size:12px}
+
+.hero{background:var(--hive);color:#fff;padding:88px 0 0;position:relative;overflow:hidden}
+.hero svg.hex{position:absolute;right:-40px;top:32px;width:420px;height:auto;opacity:.9}
+@media (max-width:860px){.hero svg.hex{width:240px;right:-60px;top:24px;opacity:.35}}
+.eyebrow{font:600 13px/16px var(--font);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-muted);margin:0 0 16px}
+.dark .eyebrow{color:var(--bee-gold)}
+.hero h1{font:700 64px/66px var(--font);letter-spacing:-.01em;margin:0 0 20px;max-width:760px;position:relative}
+.hero h1 span{color:var(--bee-gold)}
+.hero p.lead{font:300 20px/30px var(--font);color:rgba(255,255,255,.8);max-width:600px;margin:0 0 32px;position:relative}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap;position:relative}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:64px;border-top:1px solid rgba(255,255,255,.14);position:relative}
+.stats div{padding:24px 0 28px}
+.stats b{display:block;font:700 40px/44px var(--font);color:var(--bee-gold)}
+.stats span{font:600 13px/18px var(--font);letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.75)}
+@media (max-width:640px){.hero{padding-top:56px}.hero h1{font-size:40px;line-height:44px}.stats{grid-template-columns:1fr 1fr;margin-top:40px}.stats b{font-size:32px;line-height:36px}}
+
+section{padding:88px 0;border-bottom:1px solid var(--line)}
+section.alt{background:var(--surface-alt)}
+h2{font:700 36px/40px var(--font);letter-spacing:.02em;text-transform:uppercase;margin:0 0 12px}
+h2 .acc{box-shadow:inset 0 -.26em 0 var(--bee-gold)}
+.intro{font:300 20px/30px var(--font);color:var(--ink-muted);max-width:720px;margin:0 0 40px}
+h3{font:600 24px/30px var(--font);margin:56px 0 8px}
+.sub{color:var(--ink-muted);margin:0 0 20px;max-width:720px}
+@media (max-width:640px){section{padding:56px 0}h2{font-size:28px;line-height:32px}.intro{font-size:18px;line-height:27px}}
+
+/* tables */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff}
+table.spec{width:100%;border-collapse:collapse;font-size:15px;line-height:21px}
+.spec th{font:700 12px/16px var(--font);letter-spacing:.1em;text-transform:uppercase;color:var(--hive);background:var(--bee-gold);text-align:left;padding:12px 14px;white-space:nowrap}
+.spec td{padding:12px 14px;border-top:1px solid var(--line);vertical-align:top}
+.spec tbody tr:hover td{background:#FFFBF1}
+.spec td:first-child{font-weight:600}
+.code{display:inline-block;font:700 12px/16px var(--font);letter-spacing:.06em;background:var(--hive);color:var(--bee-gold);padding:3px 9px;border-radius:999px;margin:1px 0}
+@media (max-width:760px){
+  .spec thead{display:none}
+  .spec tr{display:block;padding:12px 16px;border-top:1px solid var(--line)}
+  .spec tbody tr:first-child{border-top:0}
+  .spec td{display:grid;grid-template-columns:42% 1fr;gap:12px;border:0;padding:4px 0}
+  .spec td::before{content:attr(data-label);font:600 11px/18px var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-muted)}
+  .spec tbody tr:hover td{background:none}
+}
+.note{margin-top:16px;padding:16px 20px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--bee-gold);border-radius:8px;font-size:15px;line-height:22px;max-width:900px}
+section.alt .note{background:#fff}
+
+/* diagram */
+.map{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:24px;overflow-x:auto}
+@media (max-width:640px){.map{padding:16px}.map .diagram{min-width:620px}.map p{text-align:left;position:sticky;left:0}}
+.diagram{width:100%;height:auto;display:block}
+.diagram .shape{fill:#F5F5F5;stroke:#231F20;stroke-width:2;stroke-linejoin:round}
+.diagram .seam{fill:none;stroke:#231F20;stroke-width:1.5;stroke-dasharray:4 4;opacity:.5}
+.diagram .zone{fill:rgba(249,176,35,.22);stroke:#F9B023;stroke-width:1.5;stroke-dasharray:5 4}
+.diagram .dot{fill:#231F20}
+.diagram .dl{font:700 10px var(--font);fill:#F9B023;text-anchor:middle;letter-spacing:.04em}
+.diagram .cap{font:700 12px var(--font);fill:#5B5657;text-anchor:middle;letter-spacing:.14em}
+.map p{margin:12px 0 0;font-size:14px;color:var(--ink-muted);text-align:center}
+
+/* cards */
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.rule{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px}
+.rule b{display:block;font:600 17px/22px var(--font);margin-bottom:6px}
+.rule p{margin:0;color:var(--ink-muted);font-size:15px;line-height:21px}
+.rule.font{border-top:6px solid var(--bee-gold)}
+.rule .fs{display:block;font:700 11px/14px var(--font);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-muted);margin-bottom:8px}
+.rule .min{margin-top:12px;font-weight:600;color:var(--ink)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+@media (max-width:860px){.two{grid-template-columns:1fr}}
+
+.list{list-style:none;padding:0;margin:0}
+.list li{padding:12px 0 12px 32px;border-bottom:1px solid var(--line);position:relative}
+.list li::before{position:absolute;left:0;top:12px;font-weight:700}
+.do li::before{content:"✓"}
+.dont li::before{content:"✕"}
+.todo li.done{color:var(--ink-muted)}
+.todo li.done::before{content:"✓"}
+.todo li.open::before{content:"";width:14px;height:14px;border:2px solid var(--hive);border-radius:3px;top:15px}
+
+/* threads */
+.threads{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:12px}
+.thr{all:unset;cursor:pointer;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.thr:hover{border-color:var(--hive)}
+.thr:focus-visible{outline:2px solid var(--hive);outline-offset:2px}
+.thr .tf{height:72px;display:flex;align-items:flex-end;padding:8px 10px;font:700 15px/18px var(--font);letter-spacing:.02em}
+.thr .tn{padding:8px 10px 10px;font:600 13px/17px var(--font)}
+.legend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 20px;font-size:14px;color:var(--ink-muted)}
+
+.src{padding-left:18px;margin:0}
+.src li{margin:6px 0}
+.src a{color:var(--ink)}
+.stamp{font-size:14px;color:var(--ink-muted);margin-top:24px}
+
+footer{background:var(--hive);color:rgba(255,255,255,.7);padding:40px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+footer img{height:28px;width:auto;display:block}
+footer a{color:#fff}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(80px);background:var(--hive);color:#fff;padding:10px 18px;border-radius:999px;font:600 14px/18px var(--font);transition:transform .2s ease;z-index:20;visibility:hidden}
+.toast.show{visibility:visible;transform:translateX(-50%) translateY(0)}
+
+@media print{
+  .bar,header,.hero .ctas,.hero svg.hex,.toast,footer{display:none}
+  .hero{background:none;color:#000;padding:0}
+  .hero p.lead{color:#333}.stats b{color:#000}.stats span{color:#333}.stats{border-color:#ccc}
+  section{padding:24px 0;break-inside:auto}
+  .spec th{background:#eee}.code{background:none;color:#000;border:1px solid #000}
+  .tw{overflow:visible}
+  a{text-decoration:none}
+}
+.dd{position:relative}
+.dd>button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:#fff;font:700 13px/16px var(--font);letter-spacing:.06em;text-transform:uppercase;opacity:.85;padding:8px 0}
+.dd>button:hover,.dd>button[aria-expanded="true"]{opacity:1}
+.dd>button:focus-visible{outline:2px solid var(--bee-gold);outline-offset:4px}
+.dd>button svg{width:10px;height:10px;transition:transform .15s ease}
+.dd>button[aria-expanded="true"] svg{transform:rotate(180deg)}
+.dd-menu{position:absolute;right:-12px;top:calc(100% + 14px);min-width:260px;background:var(--hive);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:8px;box-shadow:0 12px 32px rgba(0,0,0,.35);z-index:30}
+.dd-menu[hidden]{display:none}
+.dd-menu a{display:block;padding:10px 12px;border-radius:8px;text-decoration:none;color:#fff;opacity:1;text-transform:none;letter-spacing:0}
+.dd-menu a b{display:block;font:700 13px/16px var(--font);letter-spacing:.06em;text-transform:uppercase}
+.dd-menu a span{display:block;font:400 13px/18px var(--font);color:rgba(255,255,255,.65);margin-top:2px}
+.dd-menu a:hover,.dd-menu a:focus-visible{background:rgba(255,255,255,.08);outline:none}
+.dd-menu a[aria-current] b{color:var(--bee-gold)}
+.dd-menu hr{border:0;border-top:1px solid rgba(255,255,255,.12);margin:6px 4px}
+@media (max-width:640px){.dd-menu{position:fixed;left:16px;right:16px;top:118px;min-width:0}header .wrap{gap:10px}header nav{gap:14px}header img{height:30px}}
+@media print{.dd{display:none}}
+.spec td:first-child{white-space:nowrap}
+@media (max-width:760px){.spec td:has(> .v:empty){display:none}}
+.flag{display:inline-block;font:700 10px/1 var(--font);letter-spacing:.1em;text-transform:uppercase;background:#FFF4D9;color:#7A4E00;border:1px solid #F9B023;border-radius:999px;padding:4px 8px;margin-left:6px;vertical-align:2px;white-space:nowrap}
+</style>
+</head>
+<body>
+
+<div class="bar">Embroidery decoration specs for every BeeGraphix store. Updated October 27, 2026.</div>
+
+<header class="dark">
+  <div class="wrap">
+    <a href="../" aria-label="BeeGraphix brand guide"><img src="../logos/beegraphix-horizontal-gold-on-dark.svg" alt="BeeGraphix"></a>
+    <nav aria-label="Sections">
+      <a class="nl" href="#locations">Locations</a>
+      <a class="nl" href="#placement">Placement</a>
+      <a class="nl" href="#artwork">Artwork</a>
+      <a class="nl" href="#thread">Thread</a>
+      <a class="nl" href="#personalize">Personalize</a>
+      <a class="nl" href="#policies">Policies</a>
+      <a class="nl" href="#equipment">Equipment</a>
+      <div class="dd"><button type="button" id="dd-btn" aria-expanded="false" aria-controls="dd-menu">Specs <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button><div class="dd-menu" id="dd-menu" hidden><a href="../locations/"><b>All Locations</b><span>One code per spot, every method</span></a><hr><a href="../embroidery/" aria-current="page"><b>Embroidery</b><span>Melco, Madeira Polyneon</span></a><a href="../screen-print/"><b>Screen Print</b><span>Plastisol, 48 piece minimum</span></a><a href="../bgx-print/"><b>BGX Print</b><span>DTF printed at BeeGraphix</span></a><a href="../dtf/"><b>DTF</b><span>DTF through our contractor network</span></a><a href="../dtg/"><b>DTG</b><span>Direct to garment, 60%+ cotton</span></a><a href="../glitter-flake/"><b>Glitter Flake</b><span>Cut glitter vinyl, up to 2 colors</span></a><a href="../rhinestones/"><b>Rhinestones</b><span>Stones, combos and spangles</span></a><a href="../leather-patches/"><b>Leather Patches</b><span>Engraved or UV DTF leatherette</span></a><a href="../custom-patches/"><b>Custom Patches</b><span>Embroidered, woven, PVC and more</span></a><a href="../hard-goods/"><b>Hard Goods</b><span>Laser engraving and UV DTF decals</span></a></div></div>
+      
+      
+      <a class="btn btn-ghost btn-sm" href="../">Brand Guide</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero dark">
+  <svg class="hex" viewBox="0 0 420 300" aria-hidden="true" fill="none" stroke-width="10" stroke-linejoin="round">
+    <polygon stroke="#F9B023" points="250,110 200,196.6 100,196.6 50,110 100,23.4 200,23.4"/>
+    <polygon stroke="#FFFFFF" points="330,170 280,256.6 180,256.6 130,170 180,83.4 280,83.4"/>
+  </svg>
+  <div class="wrap">
+    <p class="eyebrow">Decoration Specs · Embroidery</p>
+    <h1>Built on Melco. <span>Sewn Right.</span></h1>
+    <p class="lead">Every embroidery location, max size and placement we run, plus the artwork, thread and personalization rules behind them.</p>
+    <div class="ctas">
+      <a class="btn btn-gold" href="#locations">See Locations</a>
+      <button class="btn btn-ghost" type="button" onclick="window.print()">Print Specs</button>
+    </div>
+    <div class="stats">
+      <div><b>22</b><span>Locations</span></div>
+      <div><b>31</b><span>Stock thread colors</span></div>
+      <div><b>6 pc</b><span>Minimum, no setup fee</span></div>
+      <div><b>7 to 10</b><span>Days production</span></div>
+    </div>
+  </div>
+</div>
+
+<section id="locations">
+  <div class="wrap">
+    <p class="eyebrow">01 · Locations</p>
+    <h2>Where It <span class="acc">Goes</span></h2>
+    <p class="intro">Max size is the ceiling a customer can order, set at least 0.25" inside the hoop's usable field. Default width is what the store builder loads first.</p>
+    <div class="map"><svg viewBox="0 0 800 300" class="diagram" role="img" aria-labelledby="dgt">
+<title id="dgt">Embroidery location map: front and back of a shirt and the front of a cap</title>
+<g transform="translate(10,10)"><path d="M60 40 L100 22 Q130 44 160 22 L200 40 L236 92 L208 110 L196 94 L196 262 L64 262 L64 94 L52 110 L24 92 Z" class="shape"/><path d="M100 22 Q130 44 160 22" class="seam"/>
+<circle cx="130" cy="62" r="13" class="dot"/><text x="130" y="66" class="dl">CC</text><rect x="82" y="98" width="96" height="84" rx="4" class="zone"/><circle cx="130" cy="140" r="13" class="dot"/><text x="130" y="144" class="dl">FF</text><circle cx="165" cy="88" r="13" class="dot"/><text x="165" y="92" class="dl">LC</text><circle cx="95" cy="88" r="13" class="dot"/><text x="95" y="92" class="dl">RC</text><circle cx="222" cy="88" r="13" class="dot"/><text x="222" y="92" class="dl">LS</text><circle cx="38" cy="88" r="13" class="dot"/><text x="38" y="92" class="dl">RS</text><text x="130" y="288" class="cap">FRONT</text></g>
+<g transform="translate(275,10)"><path d="M60 40 L100 22 Q130 44 160 22 L200 40 L236 92 L208 110 L196 94 L196 262 L64 262 L64 94 L52 110 L24 92 Z" class="shape"/><path d="M100 22 Q130 30 160 22" class="seam"/>
+<circle cx="130" cy="34" r="13" class="dot"/><text x="130" y="38" class="dl">NK</text><rect x="75" y="95" width="110" height="110" rx="4" class="zone"/><circle cx="130" cy="150" r="13" class="dot"/><text x="130" y="154" class="dl">FB</text><text x="130" y="288" class="cap">BACK</text></g>
+<g transform="translate(540,60)"><path d="M20 150 Q20 30 125 26 Q230 30 230 150 Z" class="shape"/><path d="M8 150 L242 150 Q250 176 200 180 L50 180 Q0 176 8 150 Z" class="shape"/>
+<path d="M125 26 L125 150" class="seam"/><rect x="70" y="82" width="110" height="44" rx="4" class="zone"/><circle cx="125" cy="104" r="13" class="dot"/><text x="125" y="108" class="dl">CF</text><circle cx="90" cy="140" r="13" class="dot"/><text x="90" y="143" class="dl" style="font-size:8px">CRP</text><circle cx="160" cy="140" r="13" class="dot"/><text x="160" y="143" class="dl" style="font-size:8px">CLP</text><circle cx="44" cy="118" r="13" class="dot"/><text x="44" y="122" class="dl">CR</text><circle cx="206" cy="118" r="13" class="dot"/><text x="206" y="122" class="dl">CL</text><text x="125" y="238" class="cap">CAP</text></g>
+</svg><p>Front view shows the garment facing you, so the wearer's left chest (LC) sits on your right.</p></div>
+    <h3>Adult front</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Default width</th><th>Max W x H</th><th>Hoop</th><th>Notes</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">FF</span></span></td><td data-label="Location"><span class="v">Full front</span></td><td data-label="Default width"><span class="v">11&quot;</span></td><td data-label="Max W x H"><span class="v">11&quot; x 9&quot;</span></td><td data-label="Hoop"><span class="v">13&quot; x 11&quot;</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">FFH</span></span></td><td data-label="Location"><span class="v">Full front, pullover hoodie</span></td><td data-label="Default width"><span class="v">11&quot;</span></td><td data-label="Max W x H"><span class="v">11&quot; x 9&quot;</span></td><td data-label="Hoop"><span class="v">13&quot; x 11&quot;</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">LC</span> / <span class="code">RC</span></span></td><td data-label="Location"><span class="v">Left or right chest</span></td><td data-label="Default width"><span class="v">3.5&quot;</span></td><td data-label="Max W x H"><span class="v">4&quot; x 4&quot;</span></td><td data-label="Hoop"><span class="v">5.5&quot;</span></td><td data-label="Notes"><span class="v">Adult 2XL and up: center 4.5&quot; from garment center. Polo: top aligns with the second button. Full zip: center moves 0.5&quot; out to clear the zipper by 0.75&quot;.</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CC</span></span></td><td data-label="Location"><span class="v">Center chest</span></td><td data-label="Default width"><span class="v">4&quot;</span></td><td data-label="Max W x H"><span class="v">4&quot; x 4&quot;</span></td><td data-label="Hoop"><span class="v">5.5&quot;</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">HP</span></span></td><td data-label="Location"><span class="v">Left hip / lower front</span></td><td data-label="Default width"><span class="v">3.5&quot;</span></td><td data-label="Max W x H"><span class="v">4&quot; x 4&quot; <span class="flag">Flagged</span></span></td><td data-label="Hoop"><span class="v">5.5&quot;</span></td><td data-label="Notes"><span class="v">On hold until confirmed.</span></td></tr></tbody></table></div><h3>Adult back</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Default width</th><th>Max W x H</th><th>Hoop</th><th>Notes</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">FB</span></span></td><td data-label="Location"><span class="v">Full back</span></td><td data-label="Default width"><span class="v">11&quot;</span></td><td data-label="Max W x H"><span class="v">11&quot; x 9&quot;</span></td><td data-label="Hoop"><span class="v">13&quot; x 11&quot;</span></td><td data-label="Notes"><span class="v">Same size as the full front.</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">JB</span></span></td><td data-label="Location"><span class="v">Jacket back</span></td><td data-label="Default width"><span class="v">13&quot;</span></td><td data-label="Max W x H"><span class="v">13&quot; x 11&quot;</span></td><td data-label="Hoop"><span class="v">15&quot; x 13&quot;</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">NK</span></span></td><td data-label="Location"><span class="v">Nape of neck</span></td><td data-label="Default width"><span class="v">3&quot;</span></td><td data-label="Max W x H"><span class="v">3&quot; x 3&quot;</span></td><td data-label="Hoop"><span class="v">5.5&quot;</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">BH</span></span></td><td data-label="Location"><span class="v">Below the hood</span></td><td data-label="Default width"><span class="v">11&quot;</span></td><td data-label="Max W x H"><span class="v">11&quot; x 3&quot;</span></td><td data-label="Hoop"><span class="v">13&quot; x 8&quot;</span></td><td data-label="Notes"><span class="v">Embroidery uses the nape size here, mostly for names.</span></td></tr></tbody></table></div><h3>Sleeves</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Default width</th><th>Max W x H</th><th>Hoop</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">LS</span> / <span class="code">RS</span></span></td><td data-label="Location"><span class="v">Left or right sleeve (bicep)</span></td><td data-label="Default width"><span class="v">3&quot;</span></td><td data-label="Max W x H"><span class="v">3&quot; x 3&quot;</span></td><td data-label="Hoop"><span class="v">4.25&quot;</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">LSD</span> / <span class="code">RSD</span></span></td><td data-label="Location"><span class="v">Left or right down sleeve (long sleeve)</span></td><td data-label="Default width"><span class="v">3&quot;</span></td><td data-label="Max W x H"><span class="v">3&quot; x 11.5&quot;</span></td><td data-label="Hoop"><span class="v">4.25&quot; x 13&quot; sleeve</span></td></tr></tbody></table></div><h3>Youth</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Default width</th><th>Max W x H</th><th>Hoop</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">YFF</span></span></td><td data-label="Location"><span class="v">Youth full front</span></td><td data-label="Default width"><span class="v">8&quot;</span></td><td data-label="Max W x H"><span class="v">8&quot; x 7&quot;</span></td><td data-label="Hoop"><span class="v">13&quot; x 11&quot;</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">YLC</span></span></td><td data-label="Location"><span class="v">Youth left chest</span></td><td data-label="Default width"><span class="v">3&quot;</span></td><td data-label="Max W x H"><span class="v">3.5&quot; x 3.5&quot;</span></td><td data-label="Hoop"><span class="v">5.5&quot;</span></td></tr></tbody></table></div><h3>Pants and shorts</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Default width</th><th>Max W x H</th><th>Hoop</th><th>Notes</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">LG</span> / <span class="code">RG</span></span></td><td data-label="Location"><span class="v">Left or right thigh, pants</span></td><td data-label="Default width"><span class="v">3.5&quot;</span></td><td data-label="Max W x H"><span class="v">4&quot; x 4&quot;</span></td><td data-label="Hoop"><span class="v">5.5&quot;</span></td><td data-label="Notes"><span class="v"></span></td></tr></tbody></table></div><h3>Bags and accessories</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Default width</th><th>Max W x H</th><th>Hoop</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">BG</span></span></td><td data-label="Location"><span class="v">Bag or tote front</span></td><td data-label="Default width"><span class="v">4&quot;</span></td><td data-label="Max W x H"><span class="v">4&quot; x 4&quot;</span></td><td data-label="Hoop"><span class="v">5.5&quot;</span></td></tr></tbody></table></div><h3>Headwear</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Default width</th><th>Max W x H</th><th>Hoop</th><th>Notes</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">CF</span></span></td><td data-label="Location"><span class="v">Cap front, structured</span></td><td data-label="Default width"><span class="v">4&quot;</span></td><td data-label="Max W x H"><span class="v">4.5&quot; x 2.15&quot;</span></td><td data-label="Hoop"><span class="v">Cap frame</span></td><td data-label="Notes"><span class="v">3D puff available in embroidery (min letter height 0.5&quot;).</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CFU</span></span></td><td data-label="Location"><span class="v">Cap front, unstructured</span></td><td data-label="Default width"><span class="v">3.5&quot;</span></td><td data-label="Max W x H"><span class="v">4&quot; x 1.75&quot;</span></td><td data-label="Hoop"><span class="v">Cap frame</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CLP</span></span></td><td data-label="Location"><span class="v">Cap left front panel (wearer&#x27;s left)</span></td><td data-label="Default width"><span class="v">2.5&quot;</span></td><td data-label="Max W x H"><span class="v">2.5&quot; x 2.25&quot;</span></td><td data-label="Hoop"><span class="v">Cap frame</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CRP</span></span></td><td data-label="Location"><span class="v">Cap right front panel (wearer&#x27;s right)</span></td><td data-label="Default width"><span class="v">2.5&quot;</span></td><td data-label="Max W x H"><span class="v">2.5&quot; x 2.25&quot;</span></td><td data-label="Hoop"><span class="v">Cap frame</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CL</span> / <span class="code">CR</span></span></td><td data-label="Location"><span class="v">Cap left or right side (as worn)</span></td><td data-label="Default width"><span class="v">2&quot;</span></td><td data-label="Max W x H"><span class="v">2&quot; x 1.5&quot;</span></td><td data-label="Hoop"><span class="v">Back cap frame</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CB</span></span></td><td data-label="Location"><span class="v">Cap back</span></td><td data-label="Default width"><span class="v">2.5&quot;</span></td><td data-label="Max W x H"><span class="v">3&quot; x 1&quot;</span></td><td data-label="Hoop"><span class="v">Back cap frame</span></td><td data-label="Notes"><span class="v"></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">BN</span></span></td><td data-label="Location"><span class="v">Beanie cuff</span></td><td data-label="Default width"><span class="v">3.5&quot;</span></td><td data-label="Max W x H"><span class="v">4&quot; x 2&quot;</span></td><td data-label="Hoop"><span class="v">8&quot; x 5&quot;</span></td><td data-label="Notes"><span class="v"></span></td></tr></tbody></table></div><p class="note">Codes, names, default widths and placement come from the BeeGraphix master location list, shared by every decoration method. <a href="../locations/">See all locations</a>.</p>
+    <p class="note">Youth sizes: LC and RC max out at 3.5&quot; x 3.5&quot; and FF at 8&quot; x 7&quot;. Pullover hoodies use FFH (11&quot; x 9&quot;), placed above the pouch pocket.</p>
+  </div>
+</section>
+
+<section id="placement" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">02 · Placement</p>
+    <h2>Measure <span class="acc">Once</span></h2>
+    <p class="intro">Every placement is measured from the bottom of the collar, front or back, the same way for every decoration method. Laser alignment confirms the start point before sewing.</p>
+    <h3>Adult front</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Placement</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">FF</span></span></td><td data-label="Location"><span class="v">Full front</span></td><td data-label="Placement"><span class="v">2.5&quot; down from collar, centered</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">FFH</span></span></td><td data-label="Location"><span class="v">Full front, pullover hoodie</span></td><td data-label="Placement"><span class="v">2.5&quot; down from collar, above the pouch pocket</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">LC</span> / <span class="code">RC</span></span></td><td data-label="Location"><span class="v">Left or right chest</span></td><td data-label="Placement"><span class="v">3&quot; down from collar (about 7&quot; to 8&quot; below the high point shoulder), center 4&quot; from garment center. Hoopstation position: S to M use 10, L to XL use 11, 2XL and up use 16</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CC</span></span></td><td data-label="Location"><span class="v">Center chest</span></td><td data-label="Placement"><span class="v">3.5&quot; down from collar, centered</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">HP</span></span></td><td data-label="Location"><span class="v">Left hip / lower front</span></td><td data-label="Placement"><span class="v">To be confirmed <span class="flag">Flagged</span></span></td></tr></tbody></table></div><h3>Adult back</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Placement</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">FB</span></span></td><td data-label="Location"><span class="v">Full back</span></td><td data-label="Placement"><span class="v">4&quot; down from collar, centered (6&quot; down on hoodies) <span class="flag">Flagged</span></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">JB</span></span></td><td data-label="Location"><span class="v">Jacket back</span></td><td data-label="Placement"><span class="v">4&quot; down from collar, centered</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">NK</span></span></td><td data-label="Location"><span class="v">Nape of neck</span></td><td data-label="Placement"><span class="v">1&quot; down from back collar, centered</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">BH</span></span></td><td data-label="Location"><span class="v">Below the hood</span></td><td data-label="Placement"><span class="v">7&quot; down from collar, centered (1&quot; below the hood seam)</span></td></tr></tbody></table></div><h3>Sleeves</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Placement</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">LS</span> / <span class="code">RS</span></span></td><td data-label="Location"><span class="v">Left or right sleeve (bicep)</span></td><td data-label="Placement"><span class="v">Short sleeve: 1&quot; above sleeve hem. Long sleeve: to be confirmed <span class="flag">Flagged</span></span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">LSD</span> / <span class="code">RSD</span></span></td><td data-label="Location"><span class="v">Left or right down sleeve (long sleeve)</span></td><td data-label="Placement"><span class="v">4&quot; down from top of shoulder seam, centered on sleeve fold, reading bottom to top</span></td></tr></tbody></table></div><h3>Youth</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Placement</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">YFF</span></span></td><td data-label="Location"><span class="v">Youth full front</span></td><td data-label="Placement"><span class="v">2&quot; down from collar, centered</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">YLC</span></span></td><td data-label="Location"><span class="v">Youth left chest</span></td><td data-label="Placement"><span class="v">2.5&quot; down from collar (5.5&quot; to 6.5&quot; below the high point shoulder), center 3&quot; from garment center</span></td></tr></tbody></table></div><h3>Pants and shorts</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Placement</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">LG</span> / <span class="code">RG</span></span></td><td data-label="Location"><span class="v">Left or right thigh, pants</span></td><td data-label="Placement"><span class="v">Across from the crotch, 1&quot; from side seam</span></td></tr></tbody></table></div><h3>Bags and accessories</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Placement</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">BG</span></span></td><td data-label="Location"><span class="v">Bag or tote front</span></td><td data-label="Placement"><span class="v">Centered on the front panel</span></td></tr></tbody></table></div><h3>Headwear</h3><div class="tw"><table class="spec"><thead><tr><th>Code</th><th>Location</th><th>Placement</th></tr></thead><tbody><tr><td data-label="Code"><span class="v"><span class="code">CF</span></span></td><td data-label="Location"><span class="v">Cap front, structured</span></td><td data-label="Placement"><span class="v">Bottom of design 0.5&quot; above the visor seam, centered on front seam</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CFU</span></span></td><td data-label="Location"><span class="v">Cap front, unstructured</span></td><td data-label="Placement"><span class="v">Bottom of design 0.5&quot; above the visor seam, centered</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CLP</span></span></td><td data-label="Location"><span class="v">Cap left front panel (wearer&#x27;s left)</span></td><td data-label="Placement"><span class="v">Bottom of design 0.5&quot; up from the bottom of the panel, centered on the panel</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CRP</span></span></td><td data-label="Location"><span class="v">Cap right front panel (wearer&#x27;s right)</span></td><td data-label="Placement"><span class="v">Bottom of design 0.5&quot; up from the bottom of the panel, centered on the panel</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CL</span> / <span class="code">CR</span></span></td><td data-label="Location"><span class="v">Cap left or right side (as worn)</span></td><td data-label="Placement"><span class="v">Bottom of design 0.5&quot; above the visor line, centered on side panel, clear of eyelets</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">CB</span></span></td><td data-label="Location"><span class="v">Cap back</span></td><td data-label="Placement"><span class="v">Bottom of design 0.3&quot; above the seam, centered</span></td></tr><tr><td data-label="Code"><span class="v"><span class="code">BN</span></span></td><td data-label="Location"><span class="v">Beanie cuff</span></td><td data-label="Placement"><span class="v">Centered on the front of the folded cuff</span></td></tr></tbody></table></div>
+    <p class="note">Polo rule: LC top aligns with the second button, never higher than the collar point. Full zip rule: LC and RC centers move 0.5&quot; out so the design clears the zipper by at least 0.75&quot;.</p>
+  </div>
+</section>
+
+<section id="artwork">
+  <div class="wrap">
+    <p class="eyebrow">03 · Artwork</p>
+    <h2>Art That <span class="acc">Sews</span></h2>
+    <p class="intro">Every design is digitized for one size and one location. A new size or a new location is a new design, not a stretch of the old one.</p>
+    <div class="tw"><table class="spec "><thead><tr><th>Requirement</th><th>Standard</th></tr></thead><tbody><tr><td data-label="Requirement"><span class="v">Preferred files</span></td><td data-label="Standard"><span class="v">Vector: AI, EPS, PDF, SVG, CDR</span></td></tr><tr><td data-label="Requirement"><span class="v">Raster files</span></td><td data-label="Standard"><span class="v">300 dpi at final size minimum; routes to art review</span></td></tr><tr><td data-label="Requirement"><span class="v">Existing stitch files</span></td><td data-label="Standard"><span class="v">DST or OFM accepted; sew-out approval before production</span></td></tr><tr><td data-label="Requirement"><span class="v">Minimum text height</span></td><td data-label="Standard"><span class="v">Lowercase 0.25&quot;, uppercase 0.3&quot; for block and sans fonts; 0.35&quot; for serif fonts</span></td></tr><tr><td data-label="Requirement"><span class="v">Minimum text height, caps</span></td><td data-label="Standard"><span class="v">0.3&quot; (curved surface loses detail)</span></td></tr><tr><td data-label="Requirement"><span class="v">Minimum line width</span></td><td data-label="Standard"><span class="v">0.05&quot; (1.3 mm). Satin columns max 7 mm (0.28&quot;); wider areas switch to fill</span></td></tr><tr><td data-label="Requirement"><span class="v">Minimum gap between elements</span></td><td data-label="Standard"><span class="v">0.04&quot; (1 mm) or the gap fills in</span></td></tr><tr><td data-label="Requirement"><span class="v">Max thread colors</span></td><td data-label="Standard"><span class="v">15 per design (16 needles, one held open)</span></td></tr><tr><td data-label="Requirement"><span class="v">Resize without re-digitizing</span></td><td data-label="Standard"><span class="v">Within 10% of the digitized size</span></td></tr><tr><td data-label="Requirement"><span class="v">Cap designs</span></td><td data-label="Standard"><span class="v">Digitized separately, sewn center out, even when the flat logo exists</span></td></tr><tr><td data-label="Requirement"><span class="v">Proof</span></td><td data-label="Standard"><span class="v">Digital proof showing size, thread colors and stitch count</span></td></tr></tbody></table></div>
+
+    <h3>Melco Fonts</h3>
+    <p class="sub">Every design is set in Melco DesignShop fonts. Bold weight with even stroke width sews cleanest. Near the minimum height, always use the bold weight.</p>
+    <div class="tw"><table class="spec "><thead><tr><th>Melco font</th><th>Use for</th><th>Minimum height</th></tr></thead><tbody><tr><td data-label="Melco font"><span class="v">Athletic Block</span></td><td data-label="Use for"><span class="v">Team names, numbers, 3D puff</span></td><td data-label="Minimum height"><span class="v">0.3&quot; flat, 0.5&quot; puff</span></td></tr><tr><td data-label="Melco font"><span class="v">Block</span></td><td data-label="Use for"><span class="v">Names, company text, hats, small text</span></td><td data-label="Minimum height"><span class="v">0.25&quot; lowercase, 0.3&quot; uppercase</span></td></tr><tr><td data-label="Melco font"><span class="v">Brody</span></td><td data-label="Use for"><span class="v">Names and accents at larger sizes</span></td><td data-label="Minimum height"><span class="v">0.5&quot;</span></td></tr><tr><td data-label="Melco font"><span class="v">Script</span></td><td data-label="Use for"><span class="v">Names and accents at larger sizes</span></td><td data-label="Minimum height"><span class="v">0.75&quot;</span></td></tr><tr><td data-label="Melco font"><span class="v">Brush Script</span></td><td data-label="Use for"><span class="v">Names and accents at larger sizes</span></td><td data-label="Minimum height"><span class="v">0.75&quot;</span></td></tr></tbody></table></div>
+
+    <div class="two" style="margin-top:56px">
+      <div>
+        <h3 style="margin-top:0">Won't Reproduce in Thread</h3>
+        <p class="sub">These go to art review for a simpler version, or to DTF or a patch instead.</p>
+        <ul class="list dont"><li>Gradients, fades and photographs</li><li>Halftones, distressed textures and fine drop shadows</li><li>Thin outlines around small text</li><li>White text on light garments with no outline</li></ul>
+      </div>
+      <div>
+        <h3 style="margin-top:0">Stitch Count Tiers</h3>
+        <p class="sub">Price by stitch count, not by square inch. Typical ranges:</p>
+        <div class="tw"><table class="spec "><thead><tr><th>Location</th><th>Typical stitch count</th></tr></thead><tbody><tr><td data-label="Location"><span class="v"><span class="code">LC</span> / <span class="code">RC</span> / <span class="code">CC</span></span></td><td data-label="Typical stitch count"><span class="v">5,000 to 9,000</span></td></tr><tr><td data-label="Location"><span class="v">Cap front</span></td><td data-label="Typical stitch count"><span class="v">6,000 to 10,000</span></td></tr><tr><td data-label="Location"><span class="v">Sleeve, cap side</span></td><td data-label="Typical stitch count"><span class="v">1,500 to 4,000</span></td></tr><tr><td data-label="Location"><span class="v"><span class="code">NK</span></span></td><td data-label="Typical stitch count"><span class="v">6,000 to 12,000</span></td></tr><tr><td data-label="Location"><span class="v"><span class="code">FF</span></span></td><td data-label="Typical stitch count"><span class="v">15,000 to 60,000</span></td></tr><tr><td data-label="Location"><span class="v"><span class="code">FB</span></span></td><td data-label="Typical stitch count"><span class="v">15,000 to 60,000</span></td></tr><tr><td data-label="Location"><span class="v"><span class="code">JB</span></span></td><td data-label="Typical stitch count"><span class="v">25,000 to 60,000</span></td></tr></tbody></table></div>
+      </div>
+    </div>
+
+    <h3>Restrictions</h3>
+    <p class="sub">Each one is a rule on the product: the location is hidden, capped smaller, or flagged for approval.</p>
+    <div class="tw"><table class="spec "><thead><tr><th>Garment or condition</th><th>Rule in Brandfora</th></tr></thead><tbody><tr><td data-label="Garment or condition"><span class="v">Lightweight performance tees (under 4.5 oz)</span></td><td data-label="Rule in Brandfora"><span class="v">LC, RC, sleeves and NK only. No FF or FB (puckering).</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Full zip hoodies and jackets</span></td><td data-label="Rule in Brandfora"><span class="v">CC and FF hidden. LC, RC and FB allowed.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Pullover hoodies</span></td><td data-label="Rule in Brandfora"><span class="v">FFH max 11&quot; x 9&quot;, placed above the pouch pocket. FB starts below the hood seam.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Pockets at the location</span></td><td data-label="Rule in Brandfora"><span class="v">Location hidden. We do not sew a pocket closed.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Zippers, buttons, snaps, seams</span></td><td data-label="Rule in Brandfora"><span class="v">Design keeps 0.75&quot; clear. Hoop needs about 1&quot; of flat fabric past the design edge.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Puffer and down jackets</span></td><td data-label="Rule in Brandfora"><span class="v">Hidden. Route to a patch quote.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Waterproof shells</span></td><td data-label="Rule in Brandfora"><span class="v">Approval only, with a note that needle holes reduce water resistance. Patch preferred.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Knits and stretch fabrics</span></td><td data-label="Rule in Brandfora"><span class="v">Allowed with cutaway backing. No tearaway.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Caps</span></td><td data-label="Rule in Brandfora"><span class="v">Nothing across the back strap or over eyelets. Front plus sides can run in one hooping; back is a second hooping and a second charge.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Six panel structured caps</span></td><td data-label="Rule in Brandfora"><span class="v">Text under 0.4&quot; tall avoids the center seam.</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Designs over 60,000 stitches</span></td><td data-label="Rule in Brandfora"><span class="v">Approval only (production time).</span></td></tr><tr><td data-label="Garment or condition"><span class="v">Designs over 15 colors</span></td><td data-label="Rule in Brandfora"><span class="v">Art review to reduce colors.</span></td></tr></tbody></table></div>
+    <p class="note">Backing by fabric: cutaway for knits and fleece, no-show mesh for light colored knits, tearaway for wovens, and tearaway with a cap backing for headwear.</p>
+  </div>
+</section>
+
+<section id="thread" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">04 · Thread</p>
+    <h2>Madeira <span class="acc">Polyneon</span></h2>
+    <p class="intro">One master catalog, one row per thread number. Click any color to copy its number. Swatches are screen matches from our printed chart: use the Madeira card for production.</p>
+    <h3 style="margin-top:0">Standard Colors · All Stores</h3>
+    <div class="threads"><button type="button" class="thr" data-copy="1801" aria-label="Copy thread 1801, White"><span class="tf" style="background:#FFFFFF;color:#231F20;box-shadow:inset 0 -1px 0 #E2DFDC">1801</span><span class="tn">White</span></button><button type="button" class="thr" data-copy="1800" aria-label="Copy thread 1800, Black"><span class="tf" style="background:#111111;color:#FFFFFF">1800</span><span class="tn">Black</span></button><button type="button" class="thr" data-copy="1812" aria-label="Copy thread 1812, Light Grey"><span class="tf" style="background:#B8B8B8;color:#231F20">1812</span><span class="tn">Light Grey</span></button><button type="button" class="thr" data-copy="1918" aria-label="Copy thread 1918, Mid Grey"><span class="tf" style="background:#6B6E70;color:#FFFFFF">1918</span><span class="tn">Mid Grey</span></button><button type="button" class="thr" data-copy="1615" aria-label="Copy thread 1615, Dark Grey"><span class="tf" style="background:#4A4F52;color:#FFFFFF">1615</span><span class="tn">Dark Grey</span></button><button type="button" class="thr" data-copy="1564" aria-label="Copy thread 1564, Charcoal"><span class="tf" style="background:#3A3D40;color:#FFFFFF">1564</span><span class="tn">Charcoal</span></button><button type="button" class="thr" data-copy="1589" aria-label="Copy thread 1589, (Almost) Black"><span class="tf" style="background:#262A2C;color:#FFFFFF">1589</span><span class="tn">(Almost) Black</span></button><button type="button" class="thr" data-copy="1758" aria-label="Copy thread 1758, Brown"><span class="tf" style="background:#4A2E1E;color:#FFFFFF">1758</span><span class="tn">Brown</span></button><button type="button" class="thr" data-copy="1856" aria-label="Copy thread 1856, Texas Orange"><span class="tf" style="background:#B5471B;color:#FFFFFF">1856</span><span class="tn">Texas Orange</span></button><button type="button" class="thr" data-copy="1678" aria-label="Copy thread 1678, Bright Orange"><span class="tf" style="background:#E4571E;color:#FFFFFF">1678</span><span class="tn">Bright Orange</span></button><button type="button" class="thr" data-copy="1938" aria-label="Copy thread 1938, Flesh / Cream"><span class="tf" style="background:#EFC38E;color:#231F20">1938</span><span class="tn">Flesh / Cream</span></button><button type="button" class="thr" data-copy="1684" aria-label="Copy thread 1684, Vegas Gold"><span class="tf" style="background:#C8B27A;color:#231F20">1684</span><span class="tn">Vegas Gold</span></button><button type="button" class="thr" data-copy="1955" aria-label="Copy thread 1955, Schoolbus Gold"><span class="tf" style="background:#F2A20C;color:#231F20">1955</span><span class="tn">Schoolbus Gold</span></button><button type="button" class="thr" data-copy="1971" aria-label="Copy thread 1971, Lemon Yellow"><span class="tf" style="background:#F6E81B;color:#231F20">1971</span><span class="tn">Lemon Yellow</span></button><button type="button" class="thr" data-copy="1995" aria-label="Copy thread 1995, FLS Yellow"><span class="tf" style="background:#F5F21E;color:#231F20">1995</span><span class="tn">FLS Yellow</span></button><button type="button" class="thr" data-copy="1950" aria-label="Copy thread 1950, FLS / Lime Green"><span class="tf" style="background:#6DB32B;color:#231F20">1950</span><span class="tn">FLS / Lime Green</span></button><button type="button" class="thr" data-copy="1988" aria-label="Copy thread 1988, Kelly Green"><span class="tf" style="background:#1E7F3A;color:#FFFFFF">1988</span><span class="tn">Kelly Green</span></button><button type="button" class="thr" data-copy="1902" aria-label="Copy thread 1902, Forest Green"><span class="tf" style="background:#1C3F2A;color:#FFFFFF">1902</span><span class="tn">Forest Green</span></button><button type="button" class="thr" data-copy="1846" aria-label="Copy thread 1846, Turquoise"><span class="tf" style="background:#1C7FC4;color:#FFFFFF">1846</span><span class="tn">Turquoise</span></button><button type="button" class="thr" data-copy="1797" aria-label="Copy thread 1797, Contact Blue"><span class="tf" style="background:#2573C8;color:#FFFFFF">1797</span><span class="tn">Contact Blue</span></button><button type="button" class="thr" data-copy="1828" aria-label="Copy thread 1828, Columbia Blue"><span class="tf" style="background:#4E8FD9;color:#FFFFFF">1828</span><span class="tn">Columbia Blue</span></button><button type="button" class="thr" data-copy="1642" aria-label="Copy thread 1642, Royal Blue"><span class="tf" style="background:#1F3F9C;color:#FFFFFF">1642</span><span class="tn">Royal Blue</span></button><button type="button" class="thr" data-copy="1743" aria-label="Copy thread 1743, Navy Blue"><span class="tf" style="background:#151C3A;color:#FFFFFF">1743</span><span class="tn">Navy Blue</span></button><button type="button" class="thr" data-copy="1922" aria-label="Copy thread 1922, Russel Purple"><span class="tf" style="background:#2A2458;color:#FFFFFF">1922</span><span class="tn">Russel Purple</span></button><button type="button" class="thr" data-copy="1832" aria-label="Copy thread 1832, Majestic Purple"><span class="tf" style="background:#3D2E78;color:#FFFFFF">1832</span><span class="tn">Majestic Purple</span></button><button type="button" class="thr" data-copy="1630" aria-label="Copy thread 1630, Genesis Purple"><span class="tf" style="background:#6A58B8;color:#FFFFFF">1630 (ARC383)</span><span class="tn">Genesis Purple</span></button><button type="button" class="thr" data-copy="1994" aria-label="Copy thread 1994, FLS Pink"><span class="tf" style="background:#E8337A;color:#FFFFFF">1994</span><span class="tn">FLS Pink</span></button><button type="button" class="thr" data-copy="1635" aria-label="Copy thread 1635, Maroon"><span class="tf" style="background:#5A1A22;color:#FFFFFF">1635</span><span class="tn">Maroon</span></button><button type="button" class="thr" data-copy="1838" aria-label="Copy thread 1838, National Red"><span class="tf" style="background:#D8231F;color:#FFFFFF">1838</span><span class="tn">National Red</span></button><button type="button" class="thr" data-copy="1792" aria-label="Copy thread 1792, Old Gold"><span class="tf" style="background:#A57A1E;color:#FFFFFF">1792</span><span class="tn">Old Gold</span></button><button type="button" class="thr" data-copy="1769" aria-label="Copy thread 1769, Olive Green"><span class="tf" style="background:#585C24;color:#FFFFFF">1769</span><span class="tn">Olive Green</span></button></div>
+    <h3>Label-Only Colors</h3>
+    <p class="sub">Stocked for specific customers. Hidden from the picker until a store has a customer label mapped to one.</p>
+    <div class="threads"><button type="button" class="thr" data-copy="1765" aria-label="Copy thread 1765, Tennessee Orange"><span class="tf" style="background:#E8601C;color:#FFFFFF">1765</span><span class="tn">Tennessee Orange</span></button><button type="button" class="thr" data-copy="1843" aria-label="Copy thread 1843, Dark Royal"><span class="tf" style="background:#0F2A5E;color:#FFFFFF">1843</span><span class="tn">Dark Royal</span></button><button type="button" class="thr" data-copy="1637" aria-label="Copy thread 1637, Cardinal Red"><span class="tf" style="background:#D2232A;color:#FFFFFF">1637</span><span class="tn">Cardinal Red</span></button><button type="button" class="thr" data-copy="1980" aria-label="Copy thread 1980, Athletic Gold"><span class="tf" style="background:#F5B21A;color:#231F20">1980</span><span class="tn">Athletic Gold</span></button><button type="button" class="thr" data-copy="1588" aria-label="Copy thread 1588, Scarlet"><span class="tf" style="background:#C8202A;color:#FFFFFF">1588</span><span class="tn">Scarlet</span></button><button type="button" class="thr" data-copy="1672" aria-label="Copy thread 1672, Dark Old Gold"><span class="tf" style="background:#A07A1E;color:#FFFFFF">1672</span><span class="tn">Dark Old Gold</span></button><button type="button" class="thr" data-copy="1724" aria-label="Copy thread 1724, Bronze Gold"><span class="tf" style="background:#C8962A;color:#231F20">1724</span><span class="tn">Bronze Gold</span></button><button type="button" class="thr" data-copy="1747" aria-label="Copy thread 1747, Deep Red"><span class="tf" style="background:#B3202A;color:#FFFFFF">1747</span><span class="tn">Deep Red</span></button></div>
+    <h3>Customer Labels</h3>
+    <p class="sub">A label is the customer's name for a master thread. Customers see the label; production and inventory see the thread number.</p>
+    <div class="tw"><table class="spec "><thead><tr><th>Customer</th><th>Label</th><th>Master thread</th></tr></thead><tbody><tr><td data-label="Customer"><span class="v">Monessen</span></td><td data-label="Label"><span class="v">Monessen Grey</span></td><td data-label="Master thread"><span class="v">Mid Grey 1918</span></td></tr><tr><td data-label="Customer"><span class="v">PennWest</span></td><td data-label="Label"><span class="v">PennWest Blue</span></td><td data-label="Master thread"><span class="v">Dark Royal 1843</span></td></tr><tr><td data-label="Customer"><span class="v">PennWest</span></td><td data-label="Label"><span class="v">PennWest Red</span></td><td data-label="Master thread"><span class="v">Cardinal Red 1637</span></td></tr><tr><td data-label="Customer"><span class="v">PennWest</span></td><td data-label="Label"><span class="v">PennWest Gold</span></td><td data-label="Master thread"><span class="v">Athletic Gold 1980</span></td></tr><tr><td data-label="Customer"><span class="v">PennWest California</span></td><td data-label="Label"><span class="v">PennWest California Red</span></td><td data-label="Master thread"><span class="v">Scarlet 1588</span></td></tr><tr><td data-label="Customer"><span class="v">PennWest Clarion</span></td><td data-label="Label"><span class="v">PennWest Clarion Gold</span></td><td data-label="Master thread"><span class="v">Dark Old Gold 1672</span></td></tr><tr><td data-label="Customer"><span class="v">PennWest Edinboro</span></td><td data-label="Label"><span class="v">PennWest Edinboro Red</span></td><td data-label="Master thread"><span class="v">National Red 1838</span></td></tr><tr><td data-label="Customer"><span class="v">PennWest Global</span></td><td data-label="Label"><span class="v">PennWest Global Gold</span></td><td data-label="Master thread"><span class="v">Bronze Gold 1724</span></td></tr><tr><td data-label="Customer"><span class="v">App. State U.</span></td><td data-label="Label"><span class="v">App. State Gold</span></td><td data-label="Master thread"><span class="v">Athletic Gold 1980</span></td></tr><tr><td data-label="Customer"><span class="v">West Allegheny</span></td><td data-label="Label"><span class="v">West Allegheny Red</span></td><td data-label="Master thread"><span class="v">Deep Red 1747</span></td></tr><tr><td data-label="Customer"><span class="v">Tennessee</span></td><td data-label="Label"><span class="v">Tennessee Orange</span></td><td data-label="Master thread"><span class="v">Tennessee Orange 1765</span></td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section id="personalize">
+  <div class="wrap">
+    <p class="eyebrow">05 · Personalization</p>
+    <h2>Names and <span class="acc">Numbers</span></h2>
+    <p class="intro">Personalization is an added location, sewn only in our five Melco DesignShop fonts.</p>
+    <div class="rules"><div class="rule font"><span class="fs">Athletic block</span><b>Athletic Block</b><p>Team names, numbers, 3D puff</p><p class="min">Min 0.3&quot; flat, 0.5&quot; puff</p></div><div class="rule font"><span class="fs">Block sans</span><b>Block</b><p>Everyday names, company text, small text</p><p class="min">Min 0.25&quot; lowercase, 0.3&quot; uppercase</p></div><div class="rule font"><span class="fs">Script</span><b>Brody</b><p>Names and accents at larger sizes</p><p class="min">Min 0.5&quot;</p></div><div class="rule font"><span class="fs">Script</span><b>Script</b><p>Names and accents at larger sizes</p><p class="min">Min 0.75&quot;</p></div><div class="rule font"><span class="fs">Script</span><b>Brush Script</b><p>Names and accents at larger sizes</p><p class="min">Min 0.75&quot;</p></div></div>
+    <h3>Rules</h3>
+    <ul class="list do"><li>Layouts: one line, two lines, or name plus big number.</li><li>Name: max 14 characters per line.</li><li>Number: max 2 digits.</li><li>Thread color: any of the 31 standard colors.</li><li>Size: text never goes below its font&#x27;s minimum height. If a name will not fit a location at that height, the store blocks it rather than shrinking it.</li></ul>
+    <h3>By Location</h3>
+    <div class="tw"><table class="spec "><thead><tr><th>Location</th><th>Code</th><th>Layouts allowed</th><th>Max characters (Block caps)</th></tr></thead><tbody><tr><td data-label="Location"><span class="v">Left chest</span></td><td data-label="Code"><span class="v"><span class="code">LC</span></span></td><td data-label="Layouts allowed"><span class="v">One line, two lines, name + number</span></td><td data-label="Max characters (Block caps)"><span class="v">14</span></td></tr><tr><td data-label="Location"><span class="v">Right chest</span></td><td data-label="Code"><span class="v"><span class="code">RC</span></span></td><td data-label="Layouts allowed"><span class="v">One line, two lines, name + number</span></td><td data-label="Max characters (Block caps)"><span class="v">14</span></td></tr><tr><td data-label="Location"><span class="v">Left sleeve</span></td><td data-label="Code"><span class="v"><span class="code">LS</span></span></td><td data-label="Layouts allowed"><span class="v">One line</span></td><td data-label="Max characters (Block caps)"><span class="v">10</span></td></tr><tr><td data-label="Location"><span class="v">Right sleeve</span></td><td data-label="Code"><span class="v"><span class="code">RS</span></span></td><td data-label="Layouts allowed"><span class="v">One line</span></td><td data-label="Max characters (Block caps)"><span class="v">10</span></td></tr><tr><td data-label="Location"><span class="v">Below the hood</span></td><td data-label="Code"><span class="v">BH</span></td><td data-label="Layouts allowed"><span class="v">One line, two lines, name + number</span></td><td data-label="Max characters (Block caps)"><span class="v">14</span></td></tr><tr><td data-label="Location"><span class="v">Nape of neck</span></td><td data-label="Code"><span class="v"><span class="code">NK</span></span></td><td data-label="Layouts allowed"><span class="v">One line</span></td><td data-label="Max characters (Block caps)"><span class="v">12</span></td></tr><tr><td data-label="Location"><span class="v">Left thigh</span></td><td data-label="Code"><span class="v"><span class="code">LG</span></span></td><td data-label="Layouts allowed"><span class="v">One line, two lines, name + number</span></td><td data-label="Max characters (Block caps)"><span class="v">14</span></td></tr><tr><td data-label="Location"><span class="v">Right thigh</span></td><td data-label="Code"><span class="v"><span class="code">RG</span></span></td><td data-label="Layouts allowed"><span class="v">One line, two lines, name + number</span></td><td data-label="Max characters (Block caps)"><span class="v">14</span></td></tr><tr><td data-label="Location"><span class="v">Cap back</span></td><td data-label="Code"><span class="v"><span class="code">CB</span></span></td><td data-label="Layouts allowed"><span class="v">One line</span></td><td data-label="Max characters (Block caps)"><span class="v">12</span></td></tr></tbody></table></div>
+    <p class="note">Max characters are estimates for Block capitals at 0.3&quot; in each location&#x27;s max width. Brody at 0.5&quot; fits about 40% fewer; Script and Brush Script at 0.75&quot; fit fewer still. Below the hood uses the nape spec on hoodies, with the top of the text 1&quot; below the hood seam.</p>
+  </div>
+</section>
+
+<section id="policies" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">06 · Order Policies</p>
+    <h2>The <span class="acc">Fine Print</span></h2>
+    <p class="intro">Minimums, fees and turnaround for every embroidery order.</p>
+    <div class="rules"><div class="rule"><b>Minimum</b><p>6 pieces per design, no setup fee</p></div><div class="rule"><b>Under minimum</b><p>Allowed with a $20 setup fee</p></div><div class="rule"><b>Digitizing</b><p>No fee on left chest. Full fronts and full backs: $25.</p></div><div class="rule"><b>Production time</b><p>7 to 10 business days</p></div><div class="rule"><b>3D puff</b><p>Cap fronts only (CF), extra charge</p></div><div class="rule"><b>Personalization</b><p>Offered as an added location; see Personalization</p></div><div class="rule"><b>Sewing on patches</b><p>We sew patches onto garments and headwear. Pricing and standard patch sizes are still being set, so these are quoted per order. <span class="flag">Flagged</span></p></div></div>
+    <h3>3D Puff Rules</h3>
+    <p class="sub">Cap fronts only, as an extra charge.</p>
+    <ul class="list do"><li>Structured caps only. Unstructured caps collapse the foam.</li><li>Block or sans serif lettering and bold shapes. No script, outlines or fine detail.</li><li>Minimum letter height 0.5&quot; and minimum stroke width 0.1&quot;.</li><li>Max size 4.5&quot; W x 2.15&quot; H, same as CF.</li><li>Puff elements run in one color; flat elements can add other colors.</li></ul>
+  </div>
+</section>
+
+<section id="equipment">
+  <div class="wrap">
+    <p class="eyebrow">07 · Equipment</p>
+    <h2>The <span class="acc">Floor</span></h2>
+    <p class="intro">Melco Summit and EMT16X share the same limits, so one spec covers every machine. The hoop and a safety margin set the real ceiling, not the machine.</p>
+    <div class="tw"><table class="spec "><thead><tr><th>Item</th><th>Limit</th><th>Notes</th></tr></thead><tbody><tr><td data-label="Item"><span class="v">Summit, max flat sew field</span></td><td data-label="Limit"><span class="v">16.1&quot; W x 15.5&quot; H (410 x 393 mm)</span></td><td data-label="Notes"><span class="v">Melco Summit</span></td></tr><tr><td data-label="Item"><span class="v">EMT16X, max flat sew field</span></td><td data-label="Limit"><span class="v">16.1&quot; W x 15.5&quot; H (410 x 393 mm)</span></td><td data-label="Notes"><span class="v">Melco EMT16X</span></td></tr><tr><td data-label="Item"><span class="v">Wide angle cap frame (both)</span></td><td data-label="Limit"><span class="v">14.1&quot; W x 3.25&quot; H (360 x 82 mm), 270 degrees ear to ear</span></td><td data-label="Notes"><span class="v">Front and both sides in one hooping. Cap back is a separate hooping.</span></td></tr><tr><td data-label="Item"><span class="v">Conventional cap frame</span></td><td data-label="Limit"><span class="v">5.9&quot; W x 2.75&quot; H (152 x 70 mm)</span></td><td data-label="Notes"><span class="v">Front only</span></td></tr><tr><td data-label="Item"><span class="v">Needles</span></td><td data-label="Limit"><span class="v">16 per head</span></td><td data-label="Notes"><span class="v">Sets the thread color ceiling</span></td></tr><tr><td data-label="Item"><span class="v">Cap sew speed</span></td><td data-label="Limit"><span class="v">300 to 1,200 SPM</span></td><td data-label="Notes"><span class="v">Flats run up to 1,500 SPM</span></td></tr></tbody></table></div>
+    <h3>Mighty Hoop Sew Fields on Melco</h3>
+    <p class="sub">Melco's published usable fields, which account for hoop wall height and presser foot clearance. Flex hoops need Melco OS Flex or higher.</p>
+    <div class="tw"><table class="spec "><thead><tr><th>Mighty Hoop</th><th>Usable sew field</th><th>Bracket</th><th>OS level</th></tr></thead><tbody><tr><td data-label="Mighty Hoop"><span class="v">4.25&quot; x 4.25&quot;</span></td><td data-label="Usable sew field"><span class="v">3&quot; x 3&quot;</span></td><td data-label="Bracket"><span class="v">MT400</span></td><td data-label="OS level"><span class="v">Lite</span></td></tr><tr><td data-label="Mighty Hoop"><span class="v">5.5&quot; x 5.5&quot;</span></td><td data-label="Usable sew field"><span class="v">4.3&quot; x 4.3&quot;</span></td><td data-label="Bracket"><span class="v">MT400</span></td><td data-label="OS level"><span class="v">Lite</span></td></tr><tr><td data-label="Mighty Hoop"><span class="v">7.25&quot; x 7.25&quot;</span></td><td data-label="Usable sew field"><span class="v">6.3&quot; x 6.3&quot;</span></td><td data-label="Bracket"><span class="v">MT400</span></td><td data-label="OS level"><span class="v">Lite</span></td></tr><tr><td data-label="Mighty Hoop"><span class="v">13&quot; x 8&quot;</span></td><td data-label="Usable sew field"><span class="v">11.8&quot; x 6.7&quot;</span></td><td data-label="Bracket"><span class="v">MT475</span></td><td data-label="OS level"><span class="v">Lite</span></td></tr><tr><td data-label="Mighty Hoop"><span class="v">13&quot; x 11&quot;</span></td><td data-label="Usable sew field"><span class="v">11.8&quot; x 9.8&quot;</span></td><td data-label="Bracket"><span class="v">MT475</span></td><td data-label="OS level"><span class="v">Lite</span></td></tr><tr><td data-label="Mighty Hoop"><span class="v">4.25&quot; x 13&quot; (sleeve)</span></td><td data-label="Usable sew field"><span class="v">3.5&quot; x 12.25&quot;</span></td><td data-label="Bracket"><span class="v">MT475</span></td><td data-label="OS level"><span class="v">Flex</span></td></tr><tr><td data-label="Mighty Hoop"><span class="v">15&quot; x 12&quot;</span></td><td data-label="Usable sew field"><span class="v">14.8&quot; x 11.5&quot;</span></td><td data-label="Bracket"><span class="v">MT475</span></td><td data-label="OS level"><span class="v">Flex</span></td></tr></tbody></table></div>
+    <p class="note">Mighty Hoop brackets: MT400 handles hoops up to 10&quot; x 10&quot;, MT475 the larger ones. Wrong bracket and the hoop will not seat in the arms.</p>
+  </div>
+</section>
+
+<section id="status" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">08 · Status &amp; Sources</p>
+    <h2>Where It <span class="acc">Stands</span></h2>
+    <p class="intro">Setup progress for the Brandfora build, and where the numbers come from.</p>
+    <div class="two">
+      <div>
+        <h3 style="margin-top:0">Setup Checklist</h3>
+        <ul class="list todo"><li class="done">Confirm exact Mighty Hoop inventory against the hoop column. The spec now uses 4.25&quot;, 5.5&quot;, 7.25&quot;, 13&quot; x 8&quot;, 13&quot; x 11&quot; and 15&quot; x 12&quot;.</li><li class="done">Confirm we own the 4.25&quot; x 13&quot; sleeve hoop. If not, hide LSD / RSD.</li><li class="done">Confirmed: EMT16X runs OS Flex+, Summit runs Summit Manager. Lite blocks the 15&quot; x 12&quot; and sleeve hoops.</li><li class="done">Ask Melco to confirm Summit supports our Mighty Hoops. Their compatibility list names EMT16 and EMT16Plus but not Summit.</li><li class="done">Thread brand: Madeira Polyneon. Stock color list added above.</li><li class="open">Set price tiers against the stitch count ranges, plus the puff upcharge (Davis).</li><li class="done">3D puff: yes, cap fronts only, extra charge.</li><li class="done">Finish personalization rules: fonts set (Athletic Block, Block, Brody, Script, Brush Script); locations, characters and colors set.</li><li class="open">Map these columns to Brandfora&#x27;s decoration location fields once we see its admin form.</li><li class="open flagged">Left hip (HP): keep or remove? Sizes are set; placement is not. <span class="flag">Flagged</span></li><li class="open flagged">Full back on hoodies: confirm the placement (markup reads 6&quot; down). <span class="flag">Flagged</span></li><li class="open flagged">Sleeve (LS / RS) on long sleeves: confirm the placement. <span class="flag">Flagged</span></li><li class="open flagged">Ladies polos: add placement and sizes. <span class="flag">Flagged</span></li><li class="open flagged">Set the cost for sewing on patches. <span class="flag">Flagged</span></li></ul>
+      </div>
+      <div>
+        <h3 style="margin-top:0">Sources</h3>
+        <ul class="src"><li><a href="https://melco.com/summit/" rel="noopener">Melco Summit specifications</a></li><li><a href="https://melco.com/melco-emt16x/" rel="noopener">Melco EMT16X specifications</a></li><li><a href="https://melco.zendesk.com/hc/en-us/articles/360022025732-Mighty-Hoop-Overview" rel="noopener">Melco Help Center: Mighty Hoop overview and sew fields</a></li><li><a href="https://hoopmaster.com/product/mighty-hoop-magnetic-embroidery-frame/melco/mh-mt-1512" rel="noopener">HoopMaster: Melco 15.75&quot; x 12.5&quot; Mighty Hoop, Flex vs Lite limits</a></li><li><a href="https://melco.zendesk.com/hc/en-us/articles/10706046938381-Embroidery-Design-Guidelines" rel="noopener">Melco Help Center: Embroidery design guidelines</a></li><li><a href="https://help.fourthwall.com/create-and-sell-products/best-practices/embroidery-best-practices" rel="noopener">Fourthwall: Embroidery best practices</a></li><li><a href="https://support.impressdesigns.com/hc/en-us/articles/20137093770644-What-is-the-minimum-font-text-size-for-sewing-embroidered-garments" rel="noopener">Impress Designs: Minimum font size for embroidery</a></li></ul>
+        <p class="stamp">Placement distances, text minimums, stitch count ranges and restrictions are BeeGraphix standards based on common industry practice.</p>
+        <p class="stamp">Last updated October 27, 2026.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="../"><img src="../logos/beegraphix-horizontal-gold-on-dark.svg" alt="BeeGraphix brand guide"></a>
+    <span><a href="../screen-print/">Screen print specs</a> · <a href="../bgx-print/">BGX Print specs</a> · Questions about an embroidery order? <a href="https://www.beegraphix.com">Contact BeeGraphix</a></span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+var toast=document.getElementById("toast"),tt;
+document.addEventListener("click",function(e){
+  var b=e.target.closest("[data-copy]");if(!b)return;
+  var v=b.dataset.copy;
+  function done(){toast.textContent="Copied thread "+v;toast.classList.add("show");clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove("show")},1600)}
+  if(navigator.clipboard){navigator.clipboard.writeText(v).then(done,done)}else{done()}
+});
+</script>
+<script>
+(function(){var b=document.getElementById('dd-btn'),m=document.getElementById('dd-menu');if(!b)return;
+function set(o){b.setAttribute('aria-expanded',o?'true':'false');m.hidden=!o;if(o&&window.innerWidth<=640){m.style.top=(b.getBoundingClientRect().bottom+14)+'px'}else{m.style.top=''}}
+b.addEventListener('click',function(e){e.stopPropagation();set(m.hidden)});
+document.addEventListener('click',function(e){if(!m.hidden&&!m.contains(e.target))set(false)});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!m.hidden){set(false);b.focus()}});})();
+</script>
+</body>
+</html>
